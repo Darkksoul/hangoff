@@ -80,9 +80,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/HA_Bots')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Devilservers')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Devilservers')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Devilservers')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
 
@@ -139,5 +139,5 @@ else:
 
 #start command reactions and sticker
 REACTIONS = [reactions for reactions in environ.get('REACTIONS', '🤝 😇 🤗 😍 👍 🎅 😐 🥰 🤩 😱 🤣 😘 👏 😛 😈 🎉 ⚡️ 🫡 🤓 😎 🏆 🔥 🤭 🌚 🆒 👻 😁').split()]  # Multiple reactions can be used separated by space
-STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgIAAxkBAAEN4ctnu1NdZUe21tiqF1CjLCZW8rJ28QACmQwAAj9UAUrPkwx5a8EilDYE CAACAgIAAxkBAAEN1pBntL9sz1tuP_qo0bCdLj_xQa28ngACxgEAAhZCawpKI9T0ydt5RzYE').split()]  # Multiple sticker can be used separated by space, use @idstickerbot for get sticker id
+STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgUAAxkBAAEOBuVnzpVuJklxVIdoJnDGlKS7DvCyMgACcAwAAg3zsFV92kL5-pp9AzYE').split()]  # Multiple sticker can be used separated by space, use @idstickerbot for get sticker id
 
